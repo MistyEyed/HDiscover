@@ -4,7 +4,7 @@ import sqlite3 as s
 import streamlit as st
 import pandas as pd
 
-# HDiscover: User Discovery & Ranking System {IN PROGRESS}
+# HDiscover: User Discovery & Ranking System
 # MiniProject - Harshith Chegondi
 # 17-Dec'2025 to 26-Dec'25
 
@@ -207,3 +207,4 @@ if __name__ == "__main__":
 
 conn.commit()
 conn.close()
+
