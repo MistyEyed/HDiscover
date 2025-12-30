@@ -34,6 +34,16 @@ Clone the repository and install required packages:
 ```bash
 git clone https://github.com/MistyEyed/HDiscover.git
 cd HDiscover
+python -m venv .venv
+```
+- For Windows:
+```bash
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+- For Linux:
+```bash
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
